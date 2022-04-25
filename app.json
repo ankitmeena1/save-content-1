@@ -1,0 +1,48 @@
+{
+    "name": "Save Restricted",
+    "description": "Save restricted content bot",
+    "logo": "",
+    "keywords": [
+        "Best",
+        "telegram",
+        "save restricted",
+        "bot"
+    ],
+    "repository": "https://github.com/CodeWithNeo/SaveRestrictedContentBot",
+    "website": "",
+    "success_url": "https://t.me/ModstoreIran",
+    "env": {
+        "API_HASH": {
+            "description": "Your API HASH from my.telegram.org",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+        },
+        "AUTH": {
+            "description": "owner user id.",
+            "value": ""
+        },
+        "SESSION": {
+            "description": "pyrogram string session.",
+            "value": ""
+        },
+        "FORCESUB": {
+            "description": "Public Channel username without using '@' to forcesub.",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+}
