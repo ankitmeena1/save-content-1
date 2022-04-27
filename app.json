@@ -8,7 +8,7 @@
         "save restricted",
         "bot"
     ],
-    "repository": "https://github.com/CodeWithNeo/SaveRestrictedContentBot",
+    "repository": "https://github.com/MDROBOT512/Save-Restricted-Content-Bot",
     "website": "",
     "success_url": "https://t.me/ModstoreIran",
     "env": {
